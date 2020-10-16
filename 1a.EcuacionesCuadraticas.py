@@ -1,0 +1,10 @@
+print("\nPROGRAMA QUE OBTIENE LAS RAICES DE UNA ECUACION CUADRATICA\n")
+a=float(input("Ingresa el valor de a: "))
+b=float(input("Ingresa el valor de b: "))
+c=float(input("Ingresa el valor de c: "))
+
+x1=(-b+(((b**2)-4*a*c)**(1/2)))/(2*a)
+x2=(-b-(((b**2)-4*a*c)**(1/2)))/(2*a)
+print("\nLas raíces de la ecuación",a,"x²",b,"x",c,"son: \nx1=", x1,"\nx2= ",x2)
+print("\nResultado de X1 es: ",x1)
+print("Resultado de X2 es: ",x2)
